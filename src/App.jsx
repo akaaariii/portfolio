@@ -1,22 +1,27 @@
 import React from 'react';
-import './App.css';
+import { Wrapper } from './styles.jsx';
+import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import AboutMepage from './pages/AboutMepage';
-import Contactpage from './pages/Contactpage';
-import Homepage from './pages/Homepage';
-import Projectspage from './pages/Projectspage';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Homepage />
-      <AboutMepage />
-      <Projectspage />
-      <Contactpage />
+      <Wrapper>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </Wrapper>
       <Footer />
-    </div>
+    </>
   )
 }
 
