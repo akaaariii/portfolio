@@ -6,11 +6,9 @@ export const Wrapper = styled.div`
 `
 
 export const ColorBgSection = styled.div`
-background-color: #EED9CF;
+  background-color: #EEE2DC;
 `
 
-// #EED9CF
-// #EDC7B7
-// #EEE2DC
-// #123C69
-// #AC3B61
+// #EEE2DC brand color
+// #8E8D8A  font color
+// #ff8a7d  font color

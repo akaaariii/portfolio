@@ -3,6 +3,7 @@
 
 body {
   margin: 0;
+  color: #4e4d4a;
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,6 +16,7 @@ code {
 
 h1, h2 {
   font-family: 'Shippori Mincho', serif;
+  color: #ff8a7d;
   text-align: center;
   margin-top: 0;
 }
