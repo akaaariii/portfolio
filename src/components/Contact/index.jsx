@@ -1,16 +1,18 @@
 import React from 'react'
-import { Wrapper } from '../../globalStyles'
-import { FooterContainer } from './styles'
+import { BgSecondary, Wrapper } from '../../globalStyles'
+import { ContactContainer } from './styles'
 
 const Contact = () => {
   return (
-    <Wrapper>
-      <h2>Contact</h2>
-      <FooterContainer>
-        <p>I would love to hear from you.</p>
-        <p>caaari23@gmail.com</p>
-      </FooterContainer>
-    </Wrapper>
+    <BgSecondary>
+      <Wrapper>
+        <h2>Contact</h2>
+        <ContactContainer>
+          <p>I would love to hear from you.</p>
+          <p>caaari23@gmail.com</p>
+        </ContactContainer>
+      </Wrapper>
+    </BgSecondary>
   )
 }
 

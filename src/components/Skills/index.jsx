@@ -1,11 +1,16 @@
 import React from 'react'
-import { Wrapper } from '../../globalStyles'
+import { BgSecondary, Wrapper } from '../../globalStyles'
 
 const Skills = () => {
   return (
-    <Wrapper>
-     <h2>Skills</h2> 
-    </Wrapper>
+    <BgSecondary>
+      <Wrapper>
+       <h2>Skills</h2>
+       <div>Languages</div>
+       <div>Frameworks</div>
+       <div>Tools</div>
+      </Wrapper>
+    </BgSecondary>
   )
 }
 

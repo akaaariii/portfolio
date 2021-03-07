@@ -5,10 +5,16 @@ export const Wrapper = styled.div`
   margin: auto;
 `
 
-export const ColorBgSection = styled.div`
+export const BgPrimary = styled.div`
   background-color: #EEE2DC;
 `
 
+export const BgSecondary = styled.div`
+background-color: #f1f1f1;
+`
+
 // #EEE2DC brand color
-// #8E8D8A  font color
+// #4e4d4a brand color
+// #F1DED7
+// #8E8D8A
 // #ff8a7d  font color

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.div`
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -13,7 +14,7 @@ export const Name = styled.span`
 `
 
 export const FontEmph = styled.span`
-  color: #8E8D8A;
+  color: #EAE7DC;
   font-size: 2.5rem;
   font-weight: bold
 `

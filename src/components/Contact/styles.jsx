@@ -1,5 +1,5 @@
 import styled from 'styled-components'
 
-export const FooterContainer = styled.div`
+export const ContactContainer = styled.div`
   text-align: center;
 `
