@@ -1,10 +1,10 @@
 import React from 'react'
-import { ColorBgSection, Wrapper } from '../../globalStyles'
+import { BgPrimary, Wrapper } from '../../globalStyles'
 import { WorksContainer, WorkWrapper, OverlayText } from './styles'
 
 const Projects = () => {
   return (
-    <ColorBgSection>
+    <BgPrimary>
       <Wrapper>
         <h2>Projects</h2>
 
@@ -42,7 +42,7 @@ const Projects = () => {
           </WorkWrapper>
         </WorksContainer>
       </Wrapper>
-    </ColorBgSection>
+    </BgPrimary>
   )
 }
 
