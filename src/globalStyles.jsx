@@ -6,15 +6,18 @@ export const Wrapper = styled.div`
 `
 
 export const BgPrimary = styled.div`
-  background-color: #EEE2DC;
+  background-color: #ece4dc;
 `
 
 export const BgSecondary = styled.div`
-background-color: #f1f1f1;
+background-color: #F0EFEE;
 `
 
-// #EEE2DC brand color
+// #EEE2DC
 // #4e4d4a brand color
 // #F1DED7
 // #8E8D8A
 // #ff8a7d  font color
+
+// #ece4dc brand color
+// #F0EFEE brand color
