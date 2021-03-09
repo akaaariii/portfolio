@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
   background-color: #4e4d4a;
+  padding: 10px 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -14,6 +15,7 @@ export const Navbar = styled.nav`
   color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1000px;
   margin: auto;
 `

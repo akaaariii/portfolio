@@ -19,19 +19,22 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Navbar>
-      <p>Akari</p>
+        <NavList>
+          <Link to="home" spy={true} smooth={true} duration={500}>Akari</Link>
+        </NavList>
+
         <NavListGroup>
           <NavList>
-            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={500}>About</Link>
+            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
           </NavList>
           <NavList>
-            <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
+            <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link>
           </NavList>
           <NavList>
-            <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
+            <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
           </NavList>
           <NavList>
-            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={500}>Contact</Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link>
           </NavList>
         </NavListGroup>
       </Navbar>

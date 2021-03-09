@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const WorksContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 `
 
 export const OverlayText = styled.div`
@@ -25,10 +25,10 @@ export const WorkWrapper = styled.div`
   margin-bottom: 25px; */
 
   position: relative;
-  width: 300px;
+  /* width: 300px; */
 
   :hover ${OverlayText} {
-    opacity: .8;
+    opacity: .9;
   }
 `
 
