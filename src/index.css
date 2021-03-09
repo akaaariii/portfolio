@@ -8,7 +8,8 @@
 body {
   margin: 0;
   background-color: #4e4d4a;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Shippori Mincho', serif;
+  /* font-family: 'Lato', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,8 +19,9 @@ code {
     monospace;
 }
 
-h1, h2 {
+h2 {
   font-family: 'Shippori Mincho', serif;
+  font-family: 'Lato', sans-serif;
   color: #ff8a7d;
   text-align: center;
   margin-top: 0;
