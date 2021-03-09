@@ -4,7 +4,7 @@ import { BgSecondary, Wrapper } from '../../globalStyles'
 const Skills = () => {
   return (
     <BgSecondary>
-      <Wrapper>
+      <Wrapper id="skills">
        <h2>Skills</h2>
        <div>Languages</div>
        <div>Frameworks</div>

@@ -5,7 +5,7 @@ import { ContactContainer } from './styles'
 const Contact = () => {
   return (
     <BgSecondary>
-      <Wrapper>
+      <Wrapper id="contact">
         <h2>Contact</h2>
         <ContactContainer>
           <p>I would love to hear from you.</p>

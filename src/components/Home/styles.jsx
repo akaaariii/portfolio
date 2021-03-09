@@ -1,8 +1,14 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.div`
+  height: 80vh;
+  display: flex;
+  align-items: center;
+`
+
+export const HeroSection = styled.div`
+  margin: auto;
   color: #fff;
-  text-align: center;
   text-transform: uppercase;
   font-size: 1.7rem;
 `

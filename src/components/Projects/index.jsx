@@ -5,7 +5,7 @@ import { WorksContainer, WorkWrapper, OverlayText } from './styles'
 const Projects = () => {
   return (
     <BgPrimary>
-      <Wrapper>
+      <Wrapper id="projects">
         <h2>Projects</h2>
 
         <WorksContainer>
