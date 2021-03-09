@@ -5,7 +5,7 @@ import { Content } from './styles'
 const About = () => {
   return (
     <BgPrimary>
-     <Wrapper>
+     <Wrapper id="about">
        <h2>About Me</h2>
        <Content>
          <img src="https://via.placeholder.com/200" alt=""/>

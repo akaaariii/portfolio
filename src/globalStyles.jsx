@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   max-width: 1000px;
   margin: auto;
+  padding: 20px 0;
 `
 
 export const BgPrimary = styled.div`
