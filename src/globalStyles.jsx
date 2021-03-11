@@ -7,11 +7,11 @@ export const Wrapper = styled.div`
 `
 
 export const BgPrimary = styled.div`
-  background-color: #ece4dc;
+  background-color: #FBF4EE;
 `
 
 export const BgSecondary = styled.div`
-background-color: #F0EFEE;
+background-color: #fff;
 `
 
 // #EEE2DC
@@ -20,5 +20,7 @@ background-color: #F0EFEE;
 // #8E8D8A
 // #ff8a7d  font color
 
-// #ece4dc brand color
-// #F0EFEE brand color
+// #ece4dc
+// #F0EFEE
+
+// #FBF4EE brand color

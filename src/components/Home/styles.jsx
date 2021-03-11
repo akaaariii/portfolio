@@ -10,7 +10,7 @@ export const HeroSection = styled.div`
   margin: auto;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: .9rem;
   font-size: 2rem;
 `
 

@@ -16,8 +16,8 @@ const Projects = () => {
             <OverlayText>
               <div>Title</div>
               <div>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</div>
-              <button>Visit Website</button>
-              <button>Code</button>
+              <button>Visit <i className="fas fa-external-link-alt"></i></button>
+              <button>Github</button>
             </OverlayText>
           </WorkWrapper>
   
