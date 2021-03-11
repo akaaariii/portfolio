@@ -28,3 +28,7 @@ export const NavList = styled.li`
   padding: 0 10px;
   cursor: pointer;
 `
+
+export const Logo = styled.img`
+  width: 60px;
+`
