@@ -15,20 +15,22 @@ const Projects = () => {
           <WorkWrapper>
             <img src={work1Img} alt="Restaurant website" />
             <OverlayText>
-              <div>Restaurant website</div>
-              <div>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</div>
-              <button>Visit <i className="fas fa-external-link-alt"></i></button>
-              <button>Github</button>
+              <div>Restaurant Website</div><br />
+              <div>An Italian Restaurant website. You can make a reservation and order online.</div><br />
+              <div>HTML, CSS, JavaScript, Bootstrap</div><br />
+              <a href="https://akaaariii.github.io/0520-web-Second-Project" target="_blank">Visit <i className="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/akaaariii/0520-web-Second-Project" target="_blank">Github</a>
             </OverlayText>
           </WorkWrapper>
   
           <WorkWrapper>
             <img src={work2Img} alt="Recipe app"/>
             <OverlayText>
-              <div>Recipe app</div>
+              <div>Recipe App</div>
               <div>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</div>
-              <button>Visit <i className="fas fa-external-link-alt"></i></button>
-              <button>Github</button>
+              <div>HTML, CSS, JavaScript, Bootstrap</div><br />
+              <a href="https://akaaariii.github.io/react-recipe-app" target="_blank">Visit <i className="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/akaaariii/react-recipe-app" target="_blank">Github</a>
             </OverlayText>
           </WorkWrapper>
   
@@ -36,9 +38,10 @@ const Projects = () => {
             <img src={work3Img} alt="COVID-19 Dashboard"/>
             <OverlayText>
               <div>COVID-19 Dashboard</div>
-              <div>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</div>
-              <button>Visit <i className="fas fa-external-link-alt"></i></button>
-              <button>Github</button>
+              <div>A website that shows COVID-19 infected, recovered and deaths cases. You can see the number of cases by country.</div>
+              <div>React, Chart.js</div><br />
+              <a href="https://covid19-dashboard2.vercel.app" target="_blank">Visit <i className="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/akaaariii/covid19-dashboard2" target="_blank">Github</a>
             </OverlayText>
           </WorkWrapper>
   
