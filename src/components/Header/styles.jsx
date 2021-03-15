@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
+  font-family: 'Lato', sans-serif;
   background-color: #4e4d4a;
   padding: 10px 0;
   position: fixed;
@@ -25,7 +26,8 @@ export const NavListGroup = styled.ul`
 `
 
 export const NavList = styled.li`
-  padding: 0 10px;
+  font-weight: bold;
+  padding: 0 15px;
   cursor: pointer;
 `
 
