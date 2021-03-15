@@ -21,6 +21,22 @@ export const Navbar = styled.nav`
   margin: auto;
 `
 
+export const NavLogo = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+export const Logo = styled.img`
+  width: 60px;
+  cursor: pointer;
+`
+
+export const LogoName = styled.div`
+  margin-left: 16px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5rem;
+`
+
 export const NavListGroup = styled.ul`
   display: flex;
 `
@@ -29,8 +45,4 @@ export const NavList = styled.li`
   font-weight: bold;
   padding: 0 15px;
   cursor: pointer;
-`
-
-export const Logo = styled.img`
-  width: 60px;
 `

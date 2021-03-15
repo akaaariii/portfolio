@@ -40,6 +40,16 @@ export const data = [
     "color": "#3073BF",
   },
   {
+    "icon": TabletMobileCombo,
+    "tag": "Responsive Design",
+    "color": "",
+  },
+  {
+    "icon": Eye,
+    "tag": "Keen eye for detail",
+    "color": "",
+  },
+  {
     "icon": ReactLogo,
     "tag": "React",
     "color": "#5ED3F2",
@@ -74,14 +84,4 @@ export const data = [
     "tag": "Git",
     "color": "#E94E31",
   },
-  {
-    "icon": TabletMobileCombo,
-    "tag": "Responsive Design",
-    "color": "",
-  },
-  {
-    "icon": Eye,
-    "tag": "Keen eye for detail",
-    "color": "",
-  }
 ]
