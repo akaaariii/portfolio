@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
-import { HeaderContainer, Navbar, NavListGroup, NavList, Logo } from './styles'
+import { HeaderContainer, Navbar, NavLogo, Logo, LogoName, NavListGroup, NavList } from './styles'
 import logo from '../../assets/images/AKARI.svg'
 
 
@@ -21,12 +21,12 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Navbar>
-        <NavList>
+        <NavLogo>
           <Link to="home" spy={true} smooth={true} duration={500}>
-            {/* Akari */}
             <Logo src={logo} alt="logo"/>
           </Link>
-        </NavList>
+          <LogoName>AKARI</LogoName>
+        </NavLogo>
 
         <NavListGroup>
           <NavList>

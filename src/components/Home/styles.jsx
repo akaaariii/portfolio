@@ -8,6 +8,7 @@ export const HomeContainer = styled.div`
 
 export const HeroSection = styled.div`
   margin: auto;
+  font-family: 'Shippori Mincho', serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .9rem;
