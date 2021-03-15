@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { data } from './skillData'
 
 export const SkillsContainer = styled.div`
   display: grid;
@@ -7,10 +6,6 @@ export const SkillsContainer = styled.div`
   grid-gap: 25px;
   font-family: 'Lato', sans-serif;
   color: #4e4d4a;
-`
-
-export const SkillItem = styled.div`
-  
 `
 
 export const SkillIcon = styled.div`
