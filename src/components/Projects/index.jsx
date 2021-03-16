@@ -62,7 +62,7 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
-              <Title>Title</Title>
+              <Title>Shopping Website</Title>
               <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
             </WorkContent>
           </WorkWrapper>
@@ -70,7 +70,7 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
-              <Title>Title</Title>
+              <Title>Task Management App</Title>
               <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
             </WorkContent>
           </WorkWrapper>
@@ -78,7 +78,7 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
-              <Title>Title</Title>
+              <Title>Portfolio</Title>
               <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
             </WorkContent>
           </WorkWrapper>

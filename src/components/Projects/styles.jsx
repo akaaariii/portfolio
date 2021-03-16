@@ -10,6 +10,11 @@ export const WorksContainer = styled.div`
 export const WorkWrapper = styled.div`
   background-color: #fff;
   margin-top: 16px;
+  transition: all 0.5s 0s ease-in-out;
+
+  :hover {
+    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+  }
 `
 
 export const WorkImg = styled.img`
