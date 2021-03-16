@@ -21,6 +21,5 @@ background-color: #fff;
 // #ff8a7d  font color
 
 // #ece4dc
-// #F0EFEE
 
 // #FBF4EE brand color
