@@ -64,6 +64,8 @@ const Projects = () => {
             <WorkContent>
               <Title>Shopping Website</Title>
               <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
+              <LinkButton href="" target="_blank">Visit</LinkButton>
+              <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
@@ -72,6 +74,8 @@ const Projects = () => {
             <WorkContent>
               <Title>Task Management App</Title>
               <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
+              <LinkButton href="" target="_blank">Visit</LinkButton>
+              <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
@@ -79,7 +83,12 @@ const Projects = () => {
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
               <Title>Portfolio</Title>
-              <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
+              <StackGroup>
+                <StackItem>React</StackItem>
+                <StackItem>Styled-components</StackItem>
+              </StackGroup>
+              <Desc>My Portfolio Website.<br />All my passion is here&#33;</Desc>
+              <LinkButton href="https://github.com/akaaariii/portfolio" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 

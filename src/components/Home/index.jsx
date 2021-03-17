@@ -1,6 +1,7 @@
 import React from 'react'
 import { Wrapper } from '../../globalStyles'
-import { HomeContainer, HeroSection, Name, FontEmph } from './styles'
+import { HomeContainer, HeroSection, Name, FontEmph, MapleIcon } from './styles'
+import { CanadianMapleLeaf } from '@styled-icons/fa-brands/CanadianMapleLeaf'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         <HeroSection>
           I'm <Name>Akari</Name><br />
           <FontEmph>F</FontEmph>ront-<FontEmph>E</FontEmph>nd <FontEmph>D</FontEmph>eveloper<br />
-          Based in <FontEmph>V</FontEmph>ancouver<i className="fab fa-canadian-maple-leaf"></i>
+          Based in <FontEmph>V</FontEmph>ancouver<MapleIcon />
         </HeroSection>
       </HomeContainer>
     </Wrapper>

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { CanadianMapleLeaf } from '@styled-icons/fa-brands/CanadianMapleLeaf'
 
 export const HomeContainer = styled.div`
   height: 80vh;
@@ -25,4 +26,13 @@ export const FontEmph = styled.span`
   color: #EAE7DC;
   font-size: 3rem;
   font-weight: bold
+`
+
+export const MapleIcon = styled(CanadianMapleLeaf)`
+  width: 45px;
+  transition: all 0.5s 0s ease-in-out;
+
+  :hover {
+    color: #ff6347;
+  }
 `
