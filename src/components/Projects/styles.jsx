@@ -56,7 +56,7 @@ export const LinkButton = styled.a`
   text-decoration: none;
   background-color: #ff8a7d;
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 20px;
   margin: 5px;
 
   :hover {
