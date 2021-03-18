@@ -54,14 +54,15 @@ export const Desc = styled.div`
 
 export const LinkButton = styled.a`
   text-decoration: none;
-  background-color: #ff8a7d;
+  background-color: #8E8D8A;
   color: #fff;
-  padding: 5px 20px;
+  padding: 5px 15px;
   margin: 5px;
+  transition: all 0.5s 0s ease-in-out;
 
   :hover {
     background-color: transparent;
-    border: 1px solid #ff8a7d;
-    color: #ff8a7d;
+    border: 1px solid #8E8D8A;
+    color: #8E8D8A;
   }
 `

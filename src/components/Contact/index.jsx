@@ -8,10 +8,10 @@ const Contact = () => {
       <Wrapper id="contact">
         <h2>Contact</h2>
         <ContactContainer>
-          <h3>
+          <p>
             I would love to hear from you &#33;<br />
             Drop me a line. I'll get back to you soon :&#41;
-          </h3>
+          </p>
           <ContactLink>
             <MailIcon />
             <div>
