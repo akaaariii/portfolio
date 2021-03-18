@@ -42,7 +42,6 @@ export const NavListGroup = styled.ul`
 `
 
 export const NavList = styled.li`
-  font-weight: bold;
   padding: 0 15px;
   cursor: pointer;
 `

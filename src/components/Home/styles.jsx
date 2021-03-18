@@ -10,6 +10,7 @@ export const HomeContainer = styled.div`
 export const HeroSection = styled.div`
   margin: auto;
   font-family: 'Shippori Mincho', serif;
+  /* font-family: 'Fredoka One', cursive; */
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .9rem;
@@ -25,14 +26,14 @@ export const Name = styled.span`
 export const FontEmph = styled.span`
   color: #EAE7DC;
   font-size: 3rem;
-  font-weight: bold
+  font-weight: bold;
 `
 
 export const MapleIcon = styled(CanadianMapleLeaf)`
-  width: 45px;
+  width: 50px;
   transition: all 0.5s 0s ease-in-out;
 
   :hover {
-    color: #ff6347;
+    color: #3cb371;
   }
 `
