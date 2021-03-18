@@ -1,5 +1,5 @@
 import React from 'react'
-import { BgSecondary, Wrapper } from '../../globalStyles'
+import { BgSecondary, Wrapper, GithubIcom, LinkedinIcon } from '../../globalStyles'
 import { ContactContainer, ContactLink, MailLink, MailIcon } from './styles'
 
 const Contact = () => {
@@ -18,6 +18,8 @@ const Contact = () => {
               <MailLink href="mailto:caaari23&#64;gmail.com">caaari23@gmail.com</MailLink>
             </div>
           </ContactLink>
+          <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
+          <a href="https://www.linkedin.com/in/akari-tsutsui" target="_blank"><LinkedinIcon /></a>
         </ContactContainer>
       </Wrapper>
     </BgSecondary>

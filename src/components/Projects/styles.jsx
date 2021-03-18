@@ -51,18 +51,3 @@ export const StackItem = styled.div`
 export const Desc = styled.div`
   margin-bottom: 24px;
 `
-
-export const LinkButton = styled.a`
-  text-decoration: none;
-  background-color: #8E8D8A;
-  color: #fff;
-  padding: 5px 15px;
-  margin: 5px;
-  transition: all 0.5s 0s ease-in-out;
-
-  :hover {
-    background-color: transparent;
-    border: 1px solid #8E8D8A;
-    color: #8E8D8A;
-  }
-`
