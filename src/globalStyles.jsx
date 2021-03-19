@@ -35,11 +35,12 @@ export const GithubIcom = styled(Github)`
   width: 30px;
   margin: 5px;
   cursor: pointer;
-  color: #4e4d4a;
+  color: #606161;
   transition: all 0.4s 0s ease-in-out;
 
   :hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
+    color: #ff8a7d;
   }
 `
 
@@ -47,11 +48,12 @@ export const LinkedinIcon = styled(Linkedin)`
   width: 30px;
   margin: 5px;
   cursor: pointer;
-  color: #4e4d4a;
+  color: #606161;
   transition: all 0.4s 0s ease-in-out;
 
   :hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
+    color: #ff8a7d;
   }
 `
 

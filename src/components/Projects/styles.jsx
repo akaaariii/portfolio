@@ -31,10 +31,31 @@ export const Title = styled.div`
   font-weight: bold;
   text-transform: uppercase;
   margin: 10px 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  ::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff8a7d;
+    transform: scale(0, 1);
+    transform-origin: center;
+    transition: transform .4s; 
+  }
+
+  :hover::after {
+    transform: scale(1);
+  }
 `
 
 export const StackGroup = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 16px;
 `
@@ -45,7 +66,7 @@ export const StackItem = styled.div`
   color: #4e4d4a;
   font-size: .8rem;
   padding: 5px;
-  margin: 0 3px;
+  margin: 3px;
 `
 
 export const Desc = styled.div`

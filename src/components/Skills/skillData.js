@@ -10,6 +10,7 @@ import { Mongodb } from '@styled-icons/simple-icons/Mongodb'
 import { Firebase } from '@styled-icons/simple-icons/Firebase'
 import { Figma } from '@styled-icons/simple-icons/Figma'
 import { Git } from '@styled-icons/simple-icons/Git'
+import { StyledComponents } from '@styled-icons/simple-icons/StyledComponents'
 import { TabletMobileCombo } from '@styled-icons/entypo/TabletMobileCombo'
 import { Eye } from '@styled-icons/fa-regular/Eye'
 
@@ -64,6 +65,11 @@ export const data = [
     "tag": "Node.js",
     "color": "#519942",
   },
+  // {
+  //   "icon": StyledComponents,
+  //   "tag": "Styled-components",
+  //   "color": "",
+  // },
   {
     "icon": Mongodb,
     "tag": "MongoDB",

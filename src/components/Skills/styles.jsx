@@ -10,8 +10,13 @@ export const SkillsContainer = styled.div`
 
 export const SkillIcon = styled.div`
   margin: 32px auto 16px;
-  width: 50%;
-  height: 60px;
+  width: 40%;
+  height: 50px;
+  transition: all 0.5s 0s ease-in-out;
+
+  :hover {
+    transform: scale(1.2);
+  }
 `
 
 export const SkillText = styled.div`
@@ -21,6 +26,7 @@ export const SkillText = styled.div`
   min-width: 100%;
   border: solid 1px #4e4d4a;
   color: #4e4d4a;
+  font-size: .9rem;
   border-radius: 8px;
   text-align: center;
 `
