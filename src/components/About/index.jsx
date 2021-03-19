@@ -8,7 +8,6 @@ const About = () => {
       <Wrapper id="about">
         <h2>About Me</h2>
         <AboutContainer>
-          <img src="https://via.placeholder.com/200" alt=""/>
           <div>
             I'm Akari, Front-End Developer.
             <ul>
@@ -21,6 +20,7 @@ const About = () => {
             <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
             <a href="https://www.linkedin.com/in/akari-tsutsui" target="_blank"><LinkedinIcon /></a>
           </div>
+          <img src="https://via.placeholder.com/200" alt=""/>
         </AboutContainer>
       </Wrapper>
     </BgPrimary>
