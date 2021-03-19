@@ -2,15 +2,24 @@ import styled from 'styled-components'
 
 export const WorksContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 24px;
   color: #4e4d4a;
+  padding: 36px;
+
+  @media (min-width: 768px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1025px){
+    grid-template-columns: repeat(3, 1fr);
+  }
 `
 
 export const WorkWrapper = styled.div`
   background-color: #fff;
   margin-top: 16px;
   transition: all 0.5s 0s ease-in-out;
+  border-radius: 3%;
 
   :hover {
     box-shadow: 0 0 11px rgb(33 33 33 / 20%);
@@ -19,6 +28,7 @@ export const WorkWrapper = styled.div`
 
 export const WorkImg = styled.img`
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 3%;
 `
 
 export const WorkContent = styled.div`

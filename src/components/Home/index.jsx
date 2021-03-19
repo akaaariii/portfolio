@@ -1,7 +1,6 @@
 import React from 'react'
 import { Wrapper } from '../../globalStyles'
 import { HomeContainer, HeroSection, Name, FontEmph, MapleIcon } from './styles'
-import { CanadianMapleLeaf } from '@styled-icons/fa-brands/CanadianMapleLeaf'
 
 const Home = () => {
   return (

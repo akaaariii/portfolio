@@ -11,21 +11,45 @@ export const HeroSection = styled.div`
   font-family: 'Shippori Mincho', serif;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: .9rem;
-  font-size: 2rem;
+  letter-spacing: .5rem;
+  font-size: 1.3rem;
+  padding: 36px;
+
+  @media (min-width: 768px){
+    letter-spacing: .7rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 1025px){
+    letter-spacing: .9rem;
+    font-size: 2rem;
+  }
 `
 
 export const Name = styled.span`
   color: #ff8a7d;
   font-family: 'Fredoka One', cursive;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
+
+  @media (min-width: 768px){
+    font-size: 3rem;
+  }
+  @media (min-width: 1025px){
+    font-size: 3.5rem;
+  }
 `
 
 export const FontEmph = styled.span`
   color: #EAE7DC;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
+
+  @media (min-width: 768px){
+    font-size: 2.5rem;
+  }
+  @media (min-width: 1025px){
+    font-size: 3rem;
+  }
 `
 
 export const MapleIcon = styled(CanadianMapleLeaf)`

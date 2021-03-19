@@ -2,10 +2,15 @@ import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 25px;
   font-family: 'Lato', sans-serif;
   color: #4e4d4a;
+  padding: 36px;
+
+  @media (min-width: 768px){
+    grid-template-columns: repeat(7, 1fr);
+  }
 `
 
 export const SkillIcon = styled.div`
