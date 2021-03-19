@@ -8,9 +8,7 @@ export const HomeContainer = styled.div`
 `
 
 export const HeroSection = styled.div`
-  margin: auto;
   font-family: 'Shippori Mincho', serif;
-  /* font-family: 'Fredoka One', cursive; */
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .9rem;
@@ -19,7 +17,8 @@ export const HeroSection = styled.div`
 
 export const Name = styled.span`
   color: #ff8a7d;
-  font-size: 3.2rem;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3.5rem;
   font-weight: bold;
 `
 

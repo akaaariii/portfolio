@@ -1,6 +1,6 @@
 import React from 'react'
-import { BgPrimary, Wrapper } from '../../globalStyles'
-import { WorksContainer, WorkWrapper, WorkImg, WorkContent, Title, StackGroup, Desc, StackItem, LinkButton } from './styles'
+import { BgPrimary, Wrapper, LinkButton } from '../../globalStyles'
+import { WorksContainer, WorkWrapper, WorkImg, WorkContent, Title, StackGroup, Desc, StackItem } from './styles'
 import work1Img from '../../assets/images/work_restaurant.png'
 import work2Img from '../../assets/images/work_recipe_app.png'
 import work3Img from '../../assets/images/work_covid19.png'
@@ -21,6 +21,7 @@ const Projects = () => {
                 <StackItem>CSS</StackItem>
                 <StackItem>JavaScript</StackItem>
                 <StackItem>Bootstrap</StackItem>
+                <StackItem>Figma</StackItem>
               </StackGroup>
               <Desc>An Italian Restaurant website. You can make a reservation and order online.</Desc>
               <LinkButton href="https://akaaariii.github.io/0520-web-Second-Project" target="_blank">Visit website</LinkButton>
@@ -62,8 +63,16 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
-              <Title>Shopping Website</Title>
-              <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
+              <Title>Leather Shop Website</Title>
+              <StackGroup>
+                <StackItem>React</StackItem>
+                <StackItem>Redux</StackItem>
+                <StackItem>Node.js</StackItem>
+                <StackItem>Express</StackItem>
+                <StackItem>MongoDB</StackItem>
+                <StackItem>Styled-components</StackItem>
+              </StackGroup>
+              <Desc>E-commerce website using MERN stack. Authentication with JWT and checkout with Stripe and Paypal.</Desc>
               <LinkButton href="" target="_blank">Visit website</LinkButton>
               <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -73,7 +82,10 @@ const Projects = () => {
             <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
             <WorkContent>
               <Title>Task Management App</Title>
-              <Desc>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure deleniti dolorem fuga praesentium perspiciatis adipisci aliquam ipsa saepe laboriosam.</Desc>
+              <StackGroup>
+                <StackItem>React</StackItem>
+              </StackGroup>
+              <Desc>Comming soon&#33;</Desc>
               <LinkButton href="" target="_blank">Visit website</LinkButton>
               <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -86,6 +98,7 @@ const Projects = () => {
               <StackGroup>
                 <StackItem>React</StackItem>
                 <StackItem>Styled-components</StackItem>
+                <StackItem>XD</StackItem>
               </StackGroup>
               <Desc>My Portfolio Website.<br />All my passion is here&#33;</Desc>
               <LinkButton href="https://github.com/akaaariii/portfolio" target="_blank">Github</LinkButton>

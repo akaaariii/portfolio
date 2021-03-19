@@ -1,5 +1,5 @@
 import React from 'react'
-import { BgPrimary, Wrapper } from '../../globalStyles'
+import { BgPrimary, Wrapper, LinkButton, GithubIcom, LinkedinIcon } from '../../globalStyles'
 import { AboutContainer } from './styles'
 
 const About = () => {
@@ -17,6 +17,9 @@ const About = () => {
               <li>aliquam ipsa saepe laboriosam. Repellat amet numquam</li>
               <li>saepe aut voluptates perferendis temporibus, explicabo maiores.</li>
             </ul>
+            <LinkButton href="">Resume</LinkButton>
+            <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
+            <a href="https://www.linkedin.com/in/akari-tsutsui" target="_blank"><LinkedinIcon /></a>
           </div>
         </AboutContainer>
       </Wrapper>
