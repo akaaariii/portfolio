@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const ButtonToggle = styled.button`
   position: absolute;
   top: 30%;
-  right: 2rem;
+  right: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

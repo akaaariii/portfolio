@@ -4,10 +4,10 @@ export const HeaderContainer = styled.header`
   font-family: 'Lato', sans-serif;
   background-color: #4e4d4a;
   padding: 10px 0;
-  position: fixed;
+  position: sticky;
   top: 0;
+  left: 0;
   width: 100%;
-  display: block;
   transition: top 0.3s;
   z-index: 1;
 `
@@ -47,7 +47,7 @@ export const NavListGroup = styled.ul`
     align-items: center;
     background: #4e4d4a;
     width: 100%;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'}; //slide from right
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
     height: 100vh;
     padding: 2rem;
     margin: 0;
