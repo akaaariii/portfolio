@@ -24,6 +24,7 @@ export const Navbar = styled.nav`
 export const NavLogo = styled.div`
   display: flex;
   align-items: center;
+  z-index: 1;
 `
 
 export const Logo = styled.img`
@@ -39,9 +40,29 @@ export const LogoName = styled.div`
 
 export const NavListGroup = styled.ul`
   display: flex;
+  
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4e4d4a;
+    width: 100%;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'}; //slide from right
+    height: 100vh;
+    padding: 2rem;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s ease-in-out;
+  }
 `
 
 export const NavList = styled.li`
-  padding: 0 15px;
+  padding: 24px;
   cursor: pointer;
+
+  @media (min-width: 1025px) {
+    padding: 0 15px;
+  }
 `

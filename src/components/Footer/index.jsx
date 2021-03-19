@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterText>Akari Tsutsui</FooterText>
-      <p>Copyright &copy; {new Date().getFullYear()} Akari Tsutsui, All rights Reserved.</p>
+      <small>Copyright &copy; {new Date().getFullYear()} Akari Tsutsui, All rights Reserved.</small>
     </FooterContainer>
   )
 }
