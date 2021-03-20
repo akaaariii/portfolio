@@ -1,17 +1,5 @@
 import styled from 'styled-components'
 
-// export const SkillIcon = styled.div`
-//   display: inline-block;
-//   margin: 32px auto 16px;
-//   width: 40%;
-//   height: 50px;
-//   transition: all 0.5s 0s ease-in-out;
-
-//   :hover {
-//     transform: scale(1.2);
-//   }
-// `
-
 export const SkillsContainer = styled.div`
   padding: 36px;
 
@@ -55,7 +43,17 @@ export const SkillGroupTitle = styled.div`
   }
 `
 
-export const SkillIconContainer = styled.div`
+export const SkillGroupLists = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  li {
+    margin: 5px;
+  }
+`
+
+export const SkillIconContainer = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: #4e4d4a;
@@ -68,13 +66,17 @@ export const SkillIconContainer = styled.div`
     display: flex;
     justify-content: center;
   }
+  `
 
-  div {
+export const SkillIcon = styled.li`
+  ${({icon}) => icon.icon} {
     width: 40px;
     margin: 10px;
+    transition: all 0.5s 0s ease-in-out;
 
     :hover {
-      color: #87ceeb;
+      color: ${({icon}) => icon.color};
     }
   }
+
 `

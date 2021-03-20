@@ -7,12 +7,13 @@ export const HomeContainer = styled.div`
   align-items: center;
 `
 
-export const HeroSection = styled.div`
+export const HeroSection = styled.h2`
   font-family: 'Forum', cursive;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.2rem;
+  font-weight: lighter;
   padding: 0 36px 36px;
   margin: auto;
 

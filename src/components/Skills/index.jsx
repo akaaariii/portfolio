@@ -1,46 +1,56 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BgSecondary, Wrapper } from '../../globalStyles'
-import { SkillsContainer, SkillIconContainer, SkillIcon, SkillText } from './styles'
-import { SkillGroup, SkillGroupTitle } from './styles'
+import { SkillsContainer, SkillGroup, SkillGroupTitle, SkillGroupLists, SkillIconContainer, SkillIcon } from './styles'
 import { data } from './skillData'
 
 const Skills = () => {
-  // const [hover, setHover] = useState(false)
-  // const onHover = () => {
-  //   setHover(!hover)
-  // }
-
   return (
     <BgSecondary>
       <Wrapper id="skills">
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         <SkillsContainer>
           <section>
             <SkillGroup>
               <SkillGroupTitle>Languages</SkillGroupTitle>
-              <div>
-                HTML, CSS, Sass, JavaScript, TypeScript
-              </div>
+              <SkillGroupLists>
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>Sass,</li>
+                <li>JavaScript,</li>
+                <li>TypeScript,</li>
+              </SkillGroupLists>
             </SkillGroup>
             <SkillGroup>
               <SkillGroupTitle>Frameworks &amp; Libraries</SkillGroupTitle>
-              <div>
-                React, Redux, Chart.js, jQuery, Node.js, Express.js
-              </div>
+              <SkillGroupLists>
+                <li>React,</li>
+                <li>Redux,</li>
+                <li>Chart.js,</li>
+                <li>jQuery,</li>
+                <li>Node.js,</li>
+                <li>Express.js</li>
+              </SkillGroupLists>
             </SkillGroup>
             <SkillGroup>
               <SkillGroupTitle>Others</SkillGroupTitle>
-              <div>
-                MongoDB, MySQL, Firebase, Git, Heroku, Figma, XD, Responsive Design
-              </div>
+              <SkillGroupLists>
+                <li>MongoDB,</li>
+                <li>MySQL,</li>
+                <li>Firebase,</li>
+                <li>Git,</li>
+                <li>Heroku,</li>
+                <li>Figma,</li>
+                <li>XD,</li>
+                <li>Responsive Design</li>
+              </SkillGroupLists>
             </SkillGroup>
           </section>
           
           <SkillIconContainer>
             {data.map((item, index) => (
-              <div key={index} color={item.color}>
+              <SkillIcon key={index} icon={item}>
                 <item.icon />
-              </div>
+              </SkillIcon>
             ))}
           </SkillIconContainer>
         </SkillsContainer>

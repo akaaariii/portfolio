@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <BgSecondary>
       <Wrapper id="contact">
-        <h2>Contact</h2>
+        <h3>Contact</h3>
         <ContactContainer>
           <p>
             I would love to hear from you &#33;<br />

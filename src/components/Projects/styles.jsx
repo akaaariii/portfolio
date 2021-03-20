@@ -34,7 +34,7 @@ export const WorkContent = styled.div`
   padding: 16px;
 `
 
-export const Title = styled.div`
+export const Title = styled.h4`
   font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -61,14 +61,14 @@ export const Title = styled.div`
   }
 `
 
-export const StackGroup = styled.div`
+export const StackGroup = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 `
 
-export const StackItem = styled.div`
+export const StackItem = styled.li`
   border: 1px solid #4e4d4a;
   border-radius: 3px;
   color: #4e4d4a;
@@ -77,6 +77,6 @@ export const StackItem = styled.div`
   margin: 3px;
 `
 
-export const Desc = styled.div`
+export const Desc = styled.p`
   margin-bottom: 24px;
 `
