@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <BgPrimary>
       <Wrapper id="projects">
-        <h2>Projects</h2>
+        <h3>Projects</h3>
 
         <WorksContainer>
           <WorkWrapper>

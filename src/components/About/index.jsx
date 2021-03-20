@@ -6,7 +6,7 @@ const About = () => {
   return (
     <BgPrimary>
       <Wrapper id="about">
-        <h2>About Me</h2>
+        <h3>About Me</h3>
         <AboutContainer>
           <div>
             <p>
