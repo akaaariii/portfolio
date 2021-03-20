@@ -10,4 +10,8 @@ export const AboutContainer = styled.div`
     flex-direction: row-reverse;
     justify-content: space-evenly;
   }
+
+  li {
+    list-style: square;
+  }
 `
