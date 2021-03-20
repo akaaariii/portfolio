@@ -72,5 +72,9 @@ export const SkillIconContainer = styled.div`
   div {
     width: 40px;
     margin: 10px;
+
+    :hover {
+      color: #87ceeb;
+    }
   }
 `

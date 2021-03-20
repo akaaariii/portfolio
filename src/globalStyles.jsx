@@ -10,10 +10,15 @@ export const Wrapper = styled.div`
 
 export const BgPrimary = styled.div`
   background-color: #FBF4EE;
+  margin-top: -2px;
 `
 
 export const BgSecondary = styled.div`
-background-color: #fff;
+  background-color: #fff;
+`
+
+export const BgBlack = styled.div`
+  background-color: #2e2d2a;
 `
 
 export const LinkButton = styled.a`
@@ -60,8 +65,9 @@ export const LinkedinIcon = styled(Linkedin)`
 
 // #EEE2DC
 // #4e4d4a brand color
-// #F1DED7
+// #2e2d2a
 // #8E8D8A
+// #F1DED7
 // #ff8a7d  font color
 
 // #ece4dc

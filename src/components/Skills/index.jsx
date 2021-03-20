@@ -38,7 +38,7 @@ const Skills = () => {
           
           <SkillIconContainer>
             {data.map((item, index) => (
-              <div key={index}>
+              <div key={index} color={item.color}>
                 <item.icon />
               </div>
             ))}

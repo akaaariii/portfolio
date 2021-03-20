@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
   left: 0;
   width: 100%;
   transition: top 0.3s;
+  opacity: ${window.pageYOffset > 80 ? '0.9' : '1'};
   z-index: 1;
 `
 
