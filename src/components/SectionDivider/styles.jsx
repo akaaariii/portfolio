@@ -12,4 +12,5 @@ export const SvgBg = styled.svg`
   top: 0;
   left: 0;
   z-index: -1;
+  margin-top: -1px;
 `
