@@ -19,7 +19,6 @@ export const WorkWrapper = styled.div`
   background-color: #fff;
   margin-top: 16px;
   transition: all 0.5s 0s ease-in-out;
-  border-radius: 3%;
 
   :hover {
     box-shadow: 0 0 11px rgb(33 33 33 / 20%);
@@ -28,7 +27,6 @@ export const WorkWrapper = styled.div`
 
 export const WorkImg = styled.img`
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  border-radius: 3%;
 `
 
 export const WorkContent = styled.div`

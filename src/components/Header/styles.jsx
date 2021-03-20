@@ -19,6 +19,7 @@ export const Navbar = styled.nav`
   align-items: center;
   max-width: 1000px;
   margin: auto;
+  padding: 0 10px;
 `
 
 export const NavLogo = styled.div`
@@ -43,14 +44,13 @@ export const NavListGroup = styled.ul`
   
   @media (max-width: 1023px) {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: #4e4d4a;
     width: 100%;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
     height: 100vh;
     padding: 2rem;
-    margin: 0;
+    margin-top: 60px;
     position: absolute;
     top: 0;
     left: 0;
