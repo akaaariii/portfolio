@@ -1,17 +1,21 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
-  /* display: flex; */
-  /* color: #4e4d4a; */
+  color: #4e4d4a;
   padding: 36px;
 
-  @media (min-width: 576px){
+  @media (min-width: 768px){
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
-  li {
-    list-style: square;
+  div {
+    /* font-size: 1.1rem; */
+    text-align: justify;
+
+    @media (min-width: 768px){
+      width: 60%;
+    }
   }
 `
