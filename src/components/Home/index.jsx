@@ -8,7 +8,7 @@ const Home = () => {
       <HomeContainer>
         <HeroSection>
           I'm <Name>Akari</Name><br />
-          <FontEmph>F</FontEmph>ront-<FontEmph>E</FontEmph>nd <FontEmph>D</FontEmph>eveloper<br />
+          <FontEmph>F</FontEmph>ront-<FontEmph>E</FontEmph>nd <FontEmph>D</FontEmph>eveloper,<br />
           Based in <FontEmph>V</FontEmph>ancouver<MapleIcon />
         </HeroSection>
       </HomeContainer>

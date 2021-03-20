@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterText = styled.p`
-  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
   font-size: 1.3rem;
   margin: 10px;
 `
