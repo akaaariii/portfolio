@@ -3,7 +3,7 @@ import { Mail } from '@styled-icons/feather/Mail'
 
 export const ContactContainer = styled.div`
   text-align: center;
-  margin-bottom: 30px;
+  padding: 12px 24px 24px;
 `
 
 export const ContactLink = styled.div`
@@ -33,7 +33,6 @@ export const MailLink = styled.a`
     transform: translate(-100%, 0);
     transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
   }
-
   :hover::after {
     transform: translate(0, 0);
   }

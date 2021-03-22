@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  font-family: 'Lato', sans-serif;
   background-color: #4e4d4a;
   padding: 10px 0;
   position: sticky;

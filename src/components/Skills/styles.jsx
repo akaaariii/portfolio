@@ -49,7 +49,8 @@ export const SkillGroupLists = styled.ul`
   margin: 0;
 
   li {
-    margin: 5px;
+    margin: 3px;
+    font-style: italic;
   }
 `
 
