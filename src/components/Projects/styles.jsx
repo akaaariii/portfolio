@@ -78,5 +78,6 @@ export const StackItem = styled.li`
 `
 
 export const Desc = styled.p`
+  font-style: italic;
   margin-bottom: 24px;
 `
