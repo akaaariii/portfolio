@@ -1,37 +1,39 @@
 import styled from 'styled-components'
 
 export const WorksContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 24px;
   color: #4e4d4a;
   padding: 36px;
-
-  @media (min-width: 768px){
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (min-width: 1024px){
-    grid-template-columns: repeat(3, 1fr);
-  }
 `
 
 export const WorkWrapper = styled.div`
   background-color: #fff;
-  margin-top: 16px;
-  transition: all 0.5s 0s ease-in-out;
+  box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+  margin-bottom: 16px;
 
-  :hover {
-    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+  @media (min-width: 768px){
+    display: flex;
+    :nth-child(even) {
+      flex-direction: row-reverse;
+    }
   }
 `
 
 export const WorkImg = styled.img`
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  @media (min-width: 768px){
+    width: 50%;
+    margin: 0;
+  }
 `
 
 export const WorkContent = styled.div`
   text-align: center;
-  padding: 16px;
+  padding: 16px 16px 56px;
+  margin: 0 auto 36px;
+  
+  @media (min-width: 768px){
+    margin: 36px auto;
+  }
+
 `
 
 export const Title = styled.h4`

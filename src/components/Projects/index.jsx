@@ -1,9 +1,12 @@
 import React from 'react'
 import { BgPrimary, Wrapper, LinkButton } from '../../globalStyles'
 import { WorksContainer, WorkWrapper, WorkImg, WorkContent, Title, StackGroup, Desc, StackItem } from './styles'
-import work1Img from '../../assets/images/work_restaurant.png'
-import work2Img from '../../assets/images/work_recipe_app.png'
-import work3Img from '../../assets/images/work_covid19.png'
+// import work1Img from '../../assets/images/work_restaurant.png'
+// import work2Img from '../../assets/images/work_recipe_app.png'
+// import work3Img from '../../assets/images/work_covid19.png'
+import work1Img from '../../assets/images/project_restaurant.png'
+import work2Img from '../../assets/images/project_recipe_app.png'
+import work3Img from '../../assets/images/project_covid19.png'
 
 const Projects = () => {
   return (
@@ -24,15 +27,15 @@ const Projects = () => {
                 <StackItem>Figma</StackItem>
               </StackGroup>
               <Desc>An Italian Restaurant website. You can make a reservation and order online.</Desc>
-              <LinkButton href="https://akaaariii.github.io/0520-web-Second-Project" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/0520-web-Second-Project" target="_blank">Github</LinkButton>
+              <LinkButton href="https://akaaariii.github.io/restaurant-project" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/restaurant-project" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
   
           <WorkWrapper>
             <WorkImg src={work2Img} alt="Recipe app"/>
             <WorkContent>
-              <Title>Recipe App</Title>
+              <Title>Recipe Search App</Title>
               <StackGroup>
                 <StackItem>React</StackItem>
                 <StackItem>Sass</StackItem>
@@ -47,7 +50,7 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src={work3Img} alt="COVID-19 Dashboard"/>
             <WorkContent>
-              <Title>COVID-19 Dashboard</Title>
+              <Title>COVID-19 Live Dashboard</Title>
               <StackGroup>
                 <StackItem>React</StackItem>
                 <StackItem>Chart.js</StackItem>
