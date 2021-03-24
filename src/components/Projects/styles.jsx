@@ -27,13 +27,13 @@ export const WorkImg = styled.img`
 
 export const WorkContent = styled.div`
   text-align: center;
-  padding: 16px 16px 56px;
   margin: 0 auto 36px;
+  padding-bottom: 56px;
   
   @media (min-width: 768px){
     margin: 36px auto;
+    padding: 16px;
   }
-
 `
 
 export const Title = styled.h4`
@@ -81,5 +81,6 @@ export const StackItem = styled.li`
 
 export const Desc = styled.p`
   font-style: italic;
+  padding: 6px;
   margin-bottom: 24px;
 `
