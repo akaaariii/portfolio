@@ -81,6 +81,6 @@ export const StackItem = styled.li`
 
 export const Desc = styled.p`
   font-style: italic;
-  padding: 6px;
+  padding: 0 16px;
   margin-bottom: 24px;
 `
