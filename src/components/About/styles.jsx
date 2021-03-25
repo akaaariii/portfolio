@@ -9,13 +9,12 @@ export const AboutContainer = styled.div`
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+`
 
-  div {
-    text-align: justify;
-
-    @media (min-width: 768px){
-      width: 60%;
-    }
+export const ContentSection = styled.div`
+  text-align: justify;
+  @media (min-width: 768px){
+    width: 50%;
   }
 
   h4 {
@@ -30,4 +29,13 @@ export const AboutText = styled.p`
   letter-spacing: .3px;
   padding: 0 0 16px 16px;
   margin: 8px 0;
+`
+
+export const ImageSection = styled.div`
+  width: 80%;
+  margin: 2rem auto 0;
+  @media (min-width: 768px){
+    width: 45%;
+    margin: 0;
+  }
 `
