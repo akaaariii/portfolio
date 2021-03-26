@@ -62,7 +62,7 @@ export const NavList = styled.li`
   padding: 24px;
   cursor: pointer;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
     padding: 0 15px;
   }
 `
