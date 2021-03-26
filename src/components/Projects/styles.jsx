@@ -6,12 +6,11 @@ export const WorksContainer = styled.div`
 `
 
 export const WorkWrapper = styled.div`
-  background-color: #fff;
-  box-shadow: 0 0 11px rgb(33 33 33 / 20%);
-  margin-bottom: 16px;
-
   @media (min-width: 768px){
     display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+    margin-bottom: 16px;
     :nth-child(even) {
       flex-direction: row-reverse;
     }

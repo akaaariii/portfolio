@@ -32,7 +32,6 @@ export const AboutText = styled.p`
 `
 
 export const ImageSection = styled.div`
-  width: 90%;
   margin: 2rem auto 0;
   @media (min-width: 576px) {
     width: 80%;
