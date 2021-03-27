@@ -1,9 +1,22 @@
 import styled from 'styled-components'
 import { Mail } from '@styled-icons/feather/Mail'
+import flower from '../../assets/images/flower_color.gif'
 
 export const ContactContainer = styled.div`
   text-align: center;
   padding: 12px 24px 24px;
+  background: url(${flower}) no-repeat right center;
+  background-size: contain;
+  
+  @media (min-width: 576px){
+    background-position: 85% 50%;
+  }
+  @media (min-width: 768px) {
+    background-position: 80% 50%;
+  }
+  @media (min-width: 1024px){
+    background-position: 75% 50%;
+  }
 `
 
 export const ContactLink = styled.div`
