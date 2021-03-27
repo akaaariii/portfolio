@@ -1,12 +1,10 @@
 import React from 'react'
 import { BgPrimary, Wrapper, LinkButton } from '../../globalStyles'
 import { WorksContainer, WorkWrapper, WorkImg, WorkContent, Title, StackGroup, Desc, StackItem } from './styles'
-// import work1Img from '../../assets/images/work_restaurant.png'
-// import work2Img from '../../assets/images/work_recipe_app.png'
-// import work3Img from '../../assets/images/work_covid19.png'
 import work1Img from '../../assets/images/project_restaurant.png'
 import work2Img from '../../assets/images/project_recipe_app.png'
 import work3Img from '../../assets/images/project_covid19.png'
+import work6Img from '../../assets/images/project_portfolio.png'
 
 const Projects = () => {
   return (
@@ -26,7 +24,10 @@ const Projects = () => {
                 <StackItem>Bootstrap</StackItem>
                 <StackItem>Figma</StackItem>
               </StackGroup>
-              <Desc>An Italian Restaurant website. You can make a reservation and order online.</Desc>
+              <Desc>
+                An Italian Restaurant website.<br />
+                Designed and developed as a team. User can make a reservation and order online.
+              </Desc>
               <LinkButton href="https://akaaariii.github.io/restaurant-project" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/restaurant-project" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -41,7 +42,10 @@ const Projects = () => {
                 <StackItem>Sass</StackItem>
                 <StackItem>API</StackItem>
               </StackGroup>
-              <Desc>A recipe search application.</Desc>
+              <Desc>
+                A recipe search application.<br />
+                Using Recipe Search API.
+              </Desc>
               <LinkButton href="https://akaaariii.github.io/react-recipe-app" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/react-recipe-app" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -95,7 +99,7 @@ const Projects = () => {
           </WorkWrapper>
 
           <WorkWrapper>
-            <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
+            <WorkImg src={work6Img} alt="Portfolio"/>
             <WorkContent>
               <Title>Portfolio</Title>
               <StackGroup>
