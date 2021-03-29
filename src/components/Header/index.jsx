@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import { HeaderContainer, Navbar, NavLogo, Logo, LogoName, NavListGroup, NavList } from './styles'
-import logo from '../../assets/images/AKARI.svg'
+import logo from '../../assets/images/akari.png'
 import NavButton from '../NavButton'
 
 
