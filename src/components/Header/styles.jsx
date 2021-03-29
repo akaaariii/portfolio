@@ -34,7 +34,7 @@ export const Logo = styled.img`
 `
 
 export const LogoName = styled.div`
-  margin-left: 16px;
+  margin-left: 8px;
   font-family: 'Fredoka One', cursive;
   font-size: 1.5rem;
 `

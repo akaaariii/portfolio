@@ -1,11 +1,14 @@
 import React from 'react'
-import { FooterContainer, FooterText } from './styles'
-
+import { FooterContainer, FooterContent, FooterText, Logo } from './styles'
+import logo from '../../assets/images/akari.png'
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterText>Akari Tsutsui</FooterText>
+      <FooterContent>
+        <Logo src={logo} alt="logo"/>
+        <FooterText>Akari Tsutsui</FooterText>
+      </FooterContent>
       <small>Copyright &copy; {new Date().getFullYear()} Akari Tsutsui, All rights Reserved.</small>
     </FooterContainer>
   )
