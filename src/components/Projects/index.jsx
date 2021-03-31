@@ -26,7 +26,7 @@ const Projects = () => {
               </StackGroup>
               <Desc>
                 An Italian Restaurant website.<br />
-                Designed and developed as a team. User can make a reservation and order online.
+                Designed and developed as a team. User can make a reservation and order online after sign in.
               </Desc>
               <LinkButton href="https://akaaariii.github.io/restaurant-project" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/restaurant-project" target="_blank">Github</LinkButton>
@@ -44,7 +44,8 @@ const Projects = () => {
               </StackGroup>
               <Desc>
                 A recipe search application.<br />
-                Using Recipe Search API.
+                Type a keyword and hit the search button, then you can find your favourite recipes.<br />
+                All the recipes are from Recipe Search API.
               </Desc>
               <LinkButton href="https://akaaariii.github.io/react-recipe-app" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/react-recipe-app" target="_blank">Github</LinkButton>
@@ -61,7 +62,10 @@ const Projects = () => {
                 <StackItem>TypeScript</StackItem>
                 <StackItem>API</StackItem>
               </StackGroup>
-              <Desc>A website that shows COVID-19 infected, recovered and deaths cases. You can see the number of cases by country.</Desc>
+              <Desc>
+                A website where you can see how many people have been infected, recovered and died in COVID-19.<br />
+                You can see the number of cases by country.
+              </Desc>
               <LinkButton href="https://covid19-dashboard2.vercel.app" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/covid19-dashboard2" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -79,7 +83,10 @@ const Projects = () => {
                 <StackItem>MongoDB</StackItem>
                 <StackItem>Styled-components</StackItem>
               </StackGroup>
-              <Desc>E-commerce website using MERN stack. Authentication with JWT and checkout with Stripe and Paypal.</Desc>
+              <Desc>
+                E-commerce website using MERN stack.<br />
+                Authentication with JWT and checkout with Stripe and Paypal.
+              </Desc>
               <LinkButton href="" target="_blank">Visit website</LinkButton>
               <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -107,7 +114,9 @@ const Projects = () => {
                 <StackItem>Styled-components</StackItem>
                 <StackItem>XD</StackItem>
               </StackGroup>
-              <Desc>My Portfolio Website.<br />All my passion is here&#33;</Desc>
+              <Desc>
+                My Portfolio Website.<br />All my passion is here&#33;
+              </Desc>
               <LinkButton href="https://github.com/akaaariii/portfolio" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>

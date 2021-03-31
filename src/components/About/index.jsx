@@ -17,7 +17,7 @@ const About = () => {
             <h4>What I Love?</h4>
             <AboutText>
               I love travelling, watching movies and especially baking cakes and sweets! <br />
-              Also, I'm a chocoholic. Even when I get stuck with buggy code, chocolates make me happy and give me motivation.
+              Also, I'm a chocoholic. Even when I get stuck with buggy code, chocolates give me motivation.
             </AboutText>
             <LinkButton href="">Resume</LinkButton>
             <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
