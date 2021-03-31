@@ -21,4 +21,5 @@ export const FooterText = styled.p`
 
 export const Logo = styled.img`
   width: 60px;
+  cursor: pointer;
 `

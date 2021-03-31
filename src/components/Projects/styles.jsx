@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const WorksContainer = styled.div`
   color: #4e4d4a;
-  padding: 36px;
+  padding: 24px 36px 36px;
 `
 
 export const WorkWrapper = styled.div`

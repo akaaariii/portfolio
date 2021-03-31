@@ -21,7 +21,7 @@ const Header = () => {
     <HeaderContainer style={style}>
       <Navbar>
         <NavLogo>
-          <Link onClick={() => setOpen(false)} to="home" spy={true} smooth={true} duration={500}>
+          <Link onClick={() => setOpen(false)} to="home" spy={true} smooth={true} offset={-70} duration={500}>
             <Logo src={logo} alt="logo"/>
           </Link>
           <LogoName>AKARI</LogoName>

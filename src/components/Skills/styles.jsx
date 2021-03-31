@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
-  padding: 36px;
+  padding: 18px 36px 36px;
 
   section {
     @media (min-width: 768px){
