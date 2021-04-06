@@ -1,7 +1,7 @@
 import React from 'react'
 import { BgPrimary, Wrapper, LinkButton, GithubIcom, LinkedinIcon } from '../../globalStyles'
 import { AboutContainer, AboutText, ContentSection, ImageSection } from './styles'
-import myphoto from '../../assets/images/aboutme.png'
+import myphoto from '../../assets/images/aboutme.svg'
 
 const About = () => {
   return (
