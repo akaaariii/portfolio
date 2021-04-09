@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Mail } from '@styled-icons/feather/Mail'
 
 export const AboutContainer = styled.div`
   color: #4e4d4a;
@@ -15,11 +16,6 @@ export const ContentSection = styled.div`
   text-align: justify;
   @media (min-width: 768px){
     width: 50%;
-  }
-
-  h4 {
-    margin: 0 0 10px;
-    font-style: italic;
   }
 `
 
@@ -39,5 +35,18 @@ export const ImageSection = styled.div`
   @media (min-width: 768px){
     width: 45%;
     margin: 0;
+  }
+`
+
+export const MailIcon = styled(Mail)`
+  width: 30px;
+  margin: 5px;
+  cursor: pointer;
+  color: #606161;
+  transition: all 0.4s 0s ease-in-out;
+
+  :hover {
+    transform: scale(1.2);
+    color: #ff8a7d;
   }
 `
