@@ -12,7 +12,7 @@ const About = () => {
           <ContentSection>
             <AboutText>
               I'm Akari Tsutsui, Front-End Developer. I'm passionate about designing and building user-friendly websites. 
-              I have learned problem solving, algorithms and solid working knowledge in front-end languages and frameworks including HTML, CSS, JavaScript and React. Also, I acquired problem-solving and how to work in a team.
+              I've learned solid working knowledge in front-end languages and frameworks including HTML, CSS, JavaScript and React. Also, I've acquired problem-solving and how to work in a team.
             </AboutText>
             <AboutText>
               Former I was working in a Bank for five years in Japan. Therefore, I take great pride in clean code and beautiful design with a keen eye for detail. I always try to better myself and learn up-to-date programming language and technologies!
@@ -26,7 +26,7 @@ const About = () => {
             <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
             <a href="https://www.linkedin.com/in/akari-tsutsui" target="_blank"><LinkedinIcon /></a>
           </ContentSection>
-          
+
           <ImageSection>
             <img src={myphoto} alt="Akari Tsutsui"/>
           </ImageSection>
