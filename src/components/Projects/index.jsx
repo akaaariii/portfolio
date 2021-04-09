@@ -4,6 +4,8 @@ import { WorksContainer, WorkWrapper, WorkImg, WorkContent, Title, StackGroup, D
 import work1Img from '../../assets/images/project_restaurant.png'
 import work2Img from '../../assets/images/project_recipe_app.png'
 import work3Img from '../../assets/images/project_covid19.png'
+import work4Img from '../../assets/images/project_ecommerce.png'
+import work5Img from '../../assets/images/project_taskmanagement.png'
 import work6Img from '../../assets/images/project_portfolio.png'
 
 const Projects = () => {
@@ -28,8 +30,8 @@ const Projects = () => {
                 An Italian Restaurant website.<br />
                 Designed and developed as a team. User can make a reservation and order online after sign in.
               </Desc>
-              <LinkButton href="https://akaaariii.github.io/restaurant-project" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/restaurant-project" target="_blank">Github</LinkButton>
+              <LinkButton href="https://akaaariii.github.io/restaurant-project/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/restaurant-project/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
   
@@ -47,8 +49,8 @@ const Projects = () => {
                 Type a keyword and hit the search button, then you can find your favourite recipes.<br />
                 All the recipes are from Recipe Search API.
               </Desc>
-              <LinkButton href="https://akaaariii.github.io/react-recipe-app" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/react-recipe-app" target="_blank">Github</LinkButton>
+              <LinkButton href="https://akaaariii.github.io/react-recipe-app/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/react-recipe-app/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
   
@@ -66,13 +68,13 @@ const Projects = () => {
                 A website where you can see how many people have been infected, recovered and died in COVID-19.<br />
                 You can see the number of cases by country.
               </Desc>
-              <LinkButton href="https://covid19-dashboard2.vercel.app" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/covid19-dashboard2" target="_blank">Github</LinkButton>
+              <LinkButton href="https://covid19-dashboard2.vercel.app/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/covid19-dashboard2/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
   
           <WorkWrapper>
-            <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
+            <WorkImg src={work4Img} alt="Leather shop website"/>
             <WorkContent>
               <Title>Leather Shop Website</Title>
               <StackGroup>
@@ -93,13 +95,14 @@ const Projects = () => {
           </WorkWrapper>
 
           <WorkWrapper>
-            <WorkImg src="https://via.placeholder.com/300x300" alt=""/>
+            <WorkImg src={work5Img} alt="Task management app"/>
             <WorkContent>
               <Title>Task Management App</Title>
               <StackGroup>
                 <StackItem>React</StackItem>
+                <StackItem>Styled-components</StackItem>
               </StackGroup>
-              <Desc>Comming soon&#33;</Desc>
+              <Desc>Coming soon&#33;</Desc>
               <LinkButton href="" target="_blank">Visit website</LinkButton>
               <LinkButton href="" target="_blank">Github</LinkButton>
             </WorkContent>
@@ -117,7 +120,7 @@ const Projects = () => {
               <Desc>
                 My Portfolio Website.<br />All my passion is here&#33;
               </Desc>
-              <LinkButton href="https://github.com/akaaariii/portfolio" target="_blank">Github</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/portfolio/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
