@@ -87,10 +87,10 @@ const Projects = () => {
               </StackGroup>
               <Desc>
                 E-commerce website using MERN stack.<br />
-                Authentication with JWT and checkout with Stripe and Paypal.
+                Authentication with Google OAuth and checkout with Stripe and Paypal.
               </Desc>
-              <LinkButton href="" target="_blank">Visit website</LinkButton>
-              <LinkButton href="" target="_blank">Github</LinkButton>
+              <LinkButton href="https://natleather.herokuapp.com/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/0520-node-final-project/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
