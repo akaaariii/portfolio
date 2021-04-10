@@ -40,7 +40,7 @@ export const ImageSection = styled.div`
 
 export const MailIcon = styled(Mail)`
   width: 30px;
-  margin: 5px;
+  margin: 5px 5px 5px 16px;
   cursor: pointer;
   color: #606161;
   transition: all 0.4s 0s ease-in-out;
