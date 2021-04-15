@@ -9,10 +9,14 @@ export const WorkWrapper = styled.div`
   @media (min-width: 768px){
     display: flex;
     background-color: #fff;
-    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
     margin-bottom: 16px;
+    transition: box-shadow .4s;
+
     :nth-child(even) {
       flex-direction: row-reverse;
+    }
+    :hover {
+      box-shadow: 0 0 11px rgb(33 33 33 / 20%);
     }
   }
 `
@@ -30,7 +34,7 @@ export const WorkContent = styled.div`
   padding-bottom: 56px;
   
   @media (min-width: 768px){
-    margin: 36px auto;
+    margin: 48px auto;
     padding: 16px;
   }
 `
@@ -43,6 +47,7 @@ export const Title = styled.h4`
   display: inline-block;
   position: relative;
   overflow: hidden;
+  padding-bottom: 5px;
 
   ::after {
     content: "";
@@ -51,7 +56,7 @@ export const Title = styled.h4`
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #ff8a7d;
+    background-color: #4e4d4a;
     transform: scale(0, 1);
     transform-origin: center;
     transition: transform .4s; 
