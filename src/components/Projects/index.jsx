@@ -16,45 +16,6 @@ const Projects = () => {
 
         <WorksContainer>
           <WorkWrapper>
-            <WorkImg src={work1Img} alt="Restaurant website" />
-            <WorkContent>
-              <Title>Restaurant Website</Title>
-              <StackGroup>
-                <StackItem>HTML</StackItem>
-                <StackItem>CSS</StackItem>
-                <StackItem>JavaScript</StackItem>
-                <StackItem>Bootstrap</StackItem>
-                <StackItem>Figma</StackItem>
-              </StackGroup>
-              <Desc>
-                An Italian Restaurant website.<br />
-                Designed and developed as a team. User can make a reservation and order online after sign in.
-              </Desc>
-              <LinkButton href="https://akaaariii.github.io/restaurant-project/" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/restaurant-project/" target="_blank">Github</LinkButton>
-            </WorkContent>
-          </WorkWrapper>
-  
-          <WorkWrapper>
-            <WorkImg src={work2Img} alt="Recipe app"/>
-            <WorkContent>
-              <Title>Recipe Search App</Title>
-              <StackGroup>
-                <StackItem>React</StackItem>
-                <StackItem>Sass</StackItem>
-                <StackItem>API</StackItem>
-              </StackGroup>
-              <Desc>
-                A recipe search application.<br />
-                Type a keyword and hit the search button, then you can find your favourite recipes.<br />
-                All the recipes are from Recipe Search API.
-              </Desc>
-              <LinkButton href="https://akaaariii.github.io/react-recipe-app/" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/react-recipe-app/" target="_blank">Github</LinkButton>
-            </WorkContent>
-          </WorkWrapper>
-  
-          <WorkWrapper>
             <WorkImg src={work3Img} alt="COVID-19 Dashboard"/>
             <WorkContent>
               <Title>COVID-19 Live Dashboard</Title>
@@ -95,16 +56,41 @@ const Projects = () => {
           </WorkWrapper>
 
           <WorkWrapper>
-            <WorkImg src={work5Img} alt="Task management app"/>
+            <WorkImg src={work1Img} alt="Restaurant website" />
             <WorkContent>
-              <Title>Task Management App</Title>
+              <Title>Restaurant Website</Title>
+              <StackGroup>
+                <StackItem>HTML</StackItem>
+                <StackItem>CSS</StackItem>
+                <StackItem>JavaScript</StackItem>
+                <StackItem>Bootstrap</StackItem>
+                <StackItem>Figma</StackItem>
+              </StackGroup>
+              <Desc>
+                An Italian Restaurant website.<br />
+                Designed and developed as a team. User can make a reservation and order online after sign in.
+              </Desc>
+              <LinkButton href="https://akaaariii.github.io/restaurant-project/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/restaurant-project/" target="_blank">Github</LinkButton>
+            </WorkContent>
+          </WorkWrapper>
+  
+          <WorkWrapper>
+            <WorkImg src={work2Img} alt="Recipe app"/>
+            <WorkContent>
+              <Title>Recipe Search App</Title>
               <StackGroup>
                 <StackItem>React</StackItem>
-                <StackItem>Styled-components</StackItem>
+                <StackItem>Sass</StackItem>
+                <StackItem>API</StackItem>
               </StackGroup>
-              <Desc>Coming soon&#33;</Desc>
-              <LinkButton href="" target="_blank">Visit website</LinkButton>
-              <LinkButton href="" target="_blank">Github</LinkButton>
+              <Desc>
+                A recipe search application.<br />
+                Type a keyword and hit the search button, then you can find your favourite recipes.<br />
+                All the recipes are from Recipe Search API.
+              </Desc>
+              <LinkButton href="https://akaaariii.github.io/react-recipe-app/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/react-recipe-app/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
@@ -123,6 +109,20 @@ const Projects = () => {
               <LinkButton href="https://github.com/akaaariii/portfolio/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
+
+          {/* <WorkWrapper>
+            <WorkImg src={work5Img} alt="Task management app"/>
+            <WorkContent>
+              <Title>Task Management App</Title>
+              <StackGroup>
+                <StackItem>React</StackItem>
+                <StackItem>Styled-components</StackItem>
+              </StackGroup>
+              <Desc>Coming soon&#33;</Desc>
+              <LinkButton href="" target="_blank">Visit website</LinkButton>
+              <LinkButton href="" target="_blank">Github</LinkButton>
+            </WorkContent>
+          </WorkWrapper> */}
 
         </WorksContainer>
       </Wrapper>
