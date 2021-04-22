@@ -48,7 +48,7 @@ const Projects = () => {
               </StackGroup>
               <Desc>
                 E-commerce website using MERN stack.<br />
-                Authentication with Google OAuth and checkout with Stripe and Paypal.
+                Authentication with Google OAuth and payment with Stripe.
               </Desc>
               <LinkButton href="https://natleather.herokuapp.com/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/0520-node-final-project/" target="_blank">Github</LinkButton>
@@ -104,7 +104,7 @@ const Projects = () => {
                 <StackItem>XD</StackItem>
               </StackGroup>
               <Desc>
-                My Portfolio Website.<br />All my passion is here&#33;
+                My Portfolio Website.
               </Desc>
               <LinkButton href="https://github.com/akaaariii/portfolio/" target="_blank">Github</LinkButton>
             </WorkContent>
