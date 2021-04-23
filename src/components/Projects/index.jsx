@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <BgPrimary>
       <Wrapper id="projects">
-        <h3>Projects</h3>
+        <h3>Portfolio</h3>
 
         <WorksContainer>
           <WorkWrapper>
@@ -97,7 +97,7 @@ const Projects = () => {
           <WorkWrapper>
             <WorkImg src={work6Img} alt="Portfolio"/>
             <WorkContent>
-              <Title>Portfolio</Title>
+              <Title>Portfolio Website</Title>
               <StackGroup>
                 <StackItem>React</StackItem>
                 <StackItem>Styled-components</StackItem>
