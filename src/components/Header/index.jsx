@@ -37,7 +37,7 @@ const Header = () => {
             <Link onClick={() => setOpen(false)} to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link>
           </NavList>
           <NavList>
-            <Link onClick={() => setOpen(false)} to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
+            <Link onClick={() => setOpen(false)} to="projects" spy={true} smooth={true} offset={-70} duration={500}>Portfolio</Link>
           </NavList>
           <NavList>
             <Link onClick={() => setOpen(false)} to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link>
