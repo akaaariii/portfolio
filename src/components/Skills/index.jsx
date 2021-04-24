@@ -15,7 +15,6 @@ const Skills = () => {
               <SkillGroupLists>
                 <li>HTML,</li>
                 <li>CSS,</li>
-                <li>Sass,</li>
                 <li>JavaScript,</li>
                 <li>TypeScript,</li>
               </SkillGroupLists>
@@ -24,7 +23,10 @@ const Skills = () => {
               <SkillGroupTitle>Frameworks &amp; Libraries</SkillGroupTitle>
               <SkillGroupLists>
                 <li>React,</li>
+                <li>React Hooks,</li>
                 <li>Redux,</li>
+                <li>Styled-components,</li>
+                <li>Sass,</li>
                 <li>Chart.js,</li>
                 <li>jQuery,</li>
                 <li>Node.js,</li>
@@ -38,7 +40,9 @@ const Skills = () => {
                 <li>MySQL,</li>
                 <li>Firebase,</li>
                 <li>Git,</li>
+                <li>Slack,</li>
                 <li>Heroku,</li>
+                <li>Vercel,</li>
                 <li>Figma,</li>
                 <li>XD,</li>
                 <li>Responsive Design</li>
