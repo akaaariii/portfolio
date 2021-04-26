@@ -45,10 +45,12 @@ const Projects = () => {
                 <StackItem>Express</StackItem>
                 <StackItem>MongoDB</StackItem>
                 <StackItem>Styled-components</StackItem>
+                <StackItem>Google OAuth</StackItem>
+                <StackItem>Stripe</StackItem>
               </StackGroup>
               <Desc>
                 E-commerce website using MERN stack.<br />
-                Authentication with Google OAuth and payment with Stripe.
+                Authentication with Google OAuth and users can checkout with Stripe.
               </Desc>
               <LinkButton href="https://natleather.herokuapp.com/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/0520-node-final-project/" target="_blank">Github</LinkButton>
