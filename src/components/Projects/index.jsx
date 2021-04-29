@@ -5,7 +5,8 @@ import work1Img from '../../assets/images/project_restaurant.png'
 import work2Img from '../../assets/images/project_recipe_app.png'
 import work3Img from '../../assets/images/project_covid19.png'
 import work4Img from '../../assets/images/project_ecommerce.png'
-import work5Img from '../../assets/images/project_taskmanagement.png'
+// import work5Img from '../../assets/images/project_taskmanagement.png'
+import work5Img from '../../assets/images/project_search_photo.png'
 import work6Img from '../../assets/images/project_portfolio.png'
 
 const Projects = () => {
@@ -15,25 +16,6 @@ const Projects = () => {
         <h3>Portfolio</h3>
 
         <WorksContainer>
-          <WorkWrapper>
-            <WorkImg src={work3Img} alt="COVID-19 Dashboard"/>
-            <WorkContent>
-              <Title>COVID-19 Live Dashboard</Title>
-              <StackGroup>
-                <StackItem>React</StackItem>
-                <StackItem>Chart.js</StackItem>
-                <StackItem>TypeScript</StackItem>
-                <StackItem>API</StackItem>
-              </StackGroup>
-              <Desc>
-                A website where you can see how many people have been infected, recovered and died in COVID-19.<br />
-                You can see the number of cases by country.
-              </Desc>
-              <LinkButton href="https://covid19-dashboard2.vercel.app/" target="_blank">Visit website</LinkButton>
-              <LinkButton href="https://github.com/akaaariii/covid19-dashboard2/" target="_blank">Github</LinkButton>
-            </WorkContent>
-          </WorkWrapper>
-  
           <WorkWrapper>
             <WorkImg src={work4Img} alt="Leather shop website"/>
             <WorkContent>
@@ -54,6 +36,25 @@ const Projects = () => {
               </Desc>
               <LinkButton href="https://natleather.herokuapp.com/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/0520-node-final-project/" target="_blank">Github</LinkButton>
+            </WorkContent>
+          </WorkWrapper>
+
+          <WorkWrapper>
+            <WorkImg src={work3Img} alt="COVID-19 Dashboard"/>
+            <WorkContent>
+              <Title>COVID-19 Live Dashboard</Title>
+              <StackGroup>
+                <StackItem>React</StackItem>
+                <StackItem>Chart.js</StackItem>
+                <StackItem>TypeScript</StackItem>
+                <StackItem>API</StackItem>
+              </StackGroup>
+              <Desc>
+                A website where you can see how many people have been infected, recovered and died in COVID-19.<br />
+                You can see the number of cases by country.
+              </Desc>
+              <LinkButton href="https://covid19-dashboard2.vercel.app/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/covid19-dashboard2/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
@@ -84,7 +85,7 @@ const Projects = () => {
               <StackGroup>
                 <StackItem>React</StackItem>
                 <StackItem>Sass</StackItem>
-                <StackItem>API</StackItem>
+                <StackItem>Edamam API</StackItem>
               </StackGroup>
               <Desc>
                 A recipe search application.<br />
@@ -93,6 +94,25 @@ const Projects = () => {
               </Desc>
               <LinkButton href="https://akaaariii.github.io/react-recipe-app/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/react-recipe-app/" target="_blank">Github</LinkButton>
+            </WorkContent>
+          </WorkWrapper>
+
+          <WorkWrapper>
+            <WorkImg src={work5Img} alt="Task management app"/>
+            <WorkContent>
+              <Title>Photo Search App</Title>
+              <StackGroup>
+                <StackItem>React</StackItem>
+                <StackItem>Material UI</StackItem>
+                <StackItem>Unsplash API</StackItem>
+              </StackGroup>
+              <Desc>
+                A photo search application like Unsplash.<br />
+                Type a keyword and press enter key, then you can find beautiful photos.<br />
+                All the photos are from Unsplash API.
+              </Desc>
+              <LinkButton href="https://search-photo-app.vercel.app/" target="_blank">Visit website</LinkButton>
+              <LinkButton href="https://github.com/akaaariii/react-unsplash/" target="_blank">Github</LinkButton>
             </WorkContent>
           </WorkWrapper>
 
