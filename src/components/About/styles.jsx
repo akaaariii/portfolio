@@ -14,6 +14,7 @@ export const AboutContainer = styled.div`
 
 export const ContentSection = styled.div`
   text-align: justify;
+  padding: 0 0 16px 16px;
   @media (min-width: 768px){
     width: 50%;
   }
@@ -23,7 +24,7 @@ export const AboutText = styled.p`
   font-style: italic;
   line-height: 1.5;
   letter-spacing: .3px;
-  padding: 0 0 16px 16px;
+  padding: 0 0 16px 0;
   margin: 8px 0;
 `
 
@@ -40,7 +41,7 @@ export const ImageSection = styled.div`
 
 export const MailIcon = styled(Mail)`
   width: 30px;
-  margin: 5px 5px 5px 16px;
+  margin: 24px 8px;
   cursor: pointer;
   color: #606161;
   transition: all 0.4s 0s ease-in-out;

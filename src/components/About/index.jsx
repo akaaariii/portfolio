@@ -21,7 +21,7 @@ const About = () => {
               Other than programming, I love travelling, watching movies and especially baking cakes and sweets! <br />
               If you are interested in working with me, please drop me a line.
             </AboutText>
-            {/* <LinkButton href="">Resume</LinkButton> */}
+            <LinkButton href="https://drive.google.com/file/d/1yL4l078XBSzHYvYYqkb7UJoLCN25jyS_/view?usp=sharing" target="_blank">Resume</LinkButton><br />
             <a href="mailto:caaari23&#64;gmail.com"><MailIcon /></a>
             <a href="https://github.com/akaaariii" target="_blank"><GithubIcom /></a>
             <a href="https://www.linkedin.com/in/akari-tsutsui" target="_blank"><LinkedinIcon /></a>
