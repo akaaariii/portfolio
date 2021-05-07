@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `
 
 export const BgPrimary = styled.div`
-  background-color: #FBF4EE;
+  background-color: #fbf4ee;
   margin-top: -2px;
 `
 
@@ -23,7 +23,7 @@ export const BgBlack = styled.div`
 
 export const LinkButton = styled.a`
   text-decoration: none;
-  background-color: #8E8D8A;
+  background-color: #8e8d8a;
   color: #fff;
   padding: 5px 15px;
   margin: 5px;
@@ -31,8 +31,8 @@ export const LinkButton = styled.a`
 
   :hover {
     background-color: transparent;
-    border: 1px solid #8E8D8A;
-    color: #8E8D8A;
+    border: 1px solid #8e8d8a;
+    color: #8e8d8a;
   }
 `
 
@@ -61,7 +61,6 @@ export const LinkedinIcon = styled(Linkedin)`
     color: #ff8a7d;
   }
 `
-
 
 // #EEE2DC
 // #4e4d4a brand color
