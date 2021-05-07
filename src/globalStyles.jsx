@@ -23,22 +23,23 @@ export const BgBlack = styled.div`
 
 export const LinkButton = styled.a`
   text-decoration: none;
-  background-color: #8e8d8a;
+  background-color: #a2c0be;
   color: #fff;
-  padding: 5px 15px;
+  border-radius: 24px;
+  padding: 8px 16px;
   margin: 5px;
   transition: all 0.5s 0s ease-in-out;
 
   :hover {
     background-color: transparent;
-    border: 1px solid #8e8d8a;
-    color: #8e8d8a;
+    border: 1px solid #a2c0be;
+    color: #a2c0be;
   }
 `
 
 export const GithubIcom = styled(Github)`
   width: 30px;
-  margin: 5px;
+  margin: 24px 8px;
   cursor: pointer;
   color: #606161;
   transition: all 0.4s 0s ease-in-out;
@@ -51,7 +52,7 @@ export const GithubIcom = styled(Github)`
 
 export const LinkedinIcon = styled(Linkedin)`
   width: 30px;
-  margin: 5px;
+  margin: 24px 8px;
   cursor: pointer;
   color: #606161;
   transition: all 0.4s 0s ease-in-out;
