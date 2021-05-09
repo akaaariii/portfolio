@@ -31,8 +31,9 @@ const Projects = () => {
                 <StackItem>Stripe</StackItem>
               </StackGroup>
               <Desc>
-                E-commerce website using MERN stack.<br />
-                Authentication with Google OAuth and users can checkout with Stripe.
+                E-commerce website using MERN stack.
+                <p>All the products, users and order info are saved in the Database. When users add a product to the cart, it is saved in localStorage.</p>
+                <p>Authentication with Google OAuth and users can checkout with Stripe.</p>
               </Desc>
               <LinkButton href="https://natleather.herokuapp.com/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/0520-node-final-project/" target="_blank">Github</LinkButton>
@@ -50,8 +51,8 @@ const Projects = () => {
                 <StackItem>API</StackItem>
               </StackGroup>
               <Desc>
-                A website where you can see how many people have been infected, recovered and died in COVID-19.<br />
-                You can see the number of cases by country.
+                A website where you can see how many people have been infected, recovered and died in COVID-19.
+                <p>You can see the number of cases by country.</p>
               </Desc>
               <LinkButton href="https://covid19-dashboard2.vercel.app/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/covid19-dashboard2/" target="_blank">Github</LinkButton>
@@ -70,8 +71,8 @@ const Projects = () => {
                 <StackItem>Figma</StackItem>
               </StackGroup>
               <Desc>
-                An Italian Restaurant website.<br />
-                Designed and developed as a team. User can make a reservation and order online after sign in.
+                An Italian Restaurant website.
+                <p>Designed and developed as a team. User can make a reservation and order online after sign in.</p>
               </Desc>
               <LinkButton href="https://akaaariii.github.io/restaurant-project/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/restaurant-project/" target="_blank">Github</LinkButton>
@@ -88,9 +89,9 @@ const Projects = () => {
                 <StackItem>Edamam API</StackItem>
               </StackGroup>
               <Desc>
-                A recipe search application.<br />
-                Type a keyword and hit the search button, then you can find your favourite recipes.<br />
-                All the recipes are from Recipe Search API.
+                A recipe search application.
+                <p>Type a keyword and hit the search button, then you can find your favourite recipes.</p>
+                <p>All the recipes are from Recipe Search API.</p>
               </Desc>
               <LinkButton href="https://akaaariii.github.io/react-recipe-app/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/react-recipe-app/" target="_blank">Github</LinkButton>
@@ -107,9 +108,9 @@ const Projects = () => {
                 <StackItem>Unsplash API</StackItem>
               </StackGroup>
               <Desc>
-                A photo search application like Unsplash.<br />
-                Type a keyword and press enter key, then you can find beautiful photos.<br />
-                All the photos are from Unsplash API.
+                A photo search application like Unsplash.
+                <p>Type a keyword and press enter key, then you can find beautiful photos.</p>
+                <p>All the photos are from Unsplash API.</p>
               </Desc>
               <LinkButton href="https://search-photo-app.vercel.app/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/react-unsplash/" target="_blank">Github</LinkButton>
