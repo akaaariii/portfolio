@@ -53,6 +53,7 @@ const Projects = () => {
               <Desc>
                 A website where you can see how many people have been infected, recovered and died in COVID-19.
                 <p>You can see the number of cases by country.</p>
+                <p>Used Chart.js to visualize the data.</p>
               </Desc>
               <LinkButton href="https://covid19-dashboard2.vercel.app/" target="_blank">Visit website</LinkButton>
               <LinkButton href="https://github.com/akaaariii/covid19-dashboard2/" target="_blank">Github</LinkButton>
