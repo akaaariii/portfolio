@@ -25,6 +25,7 @@ export const LinkButton = styled.a`
   text-decoration: none;
   background-color: #a2c0be;
   color: #fff;
+  border: 1px solid #a2c0be;
   border-radius: 24px;
   padding: 8px 16px;
   margin: 5px;
@@ -32,7 +33,6 @@ export const LinkButton = styled.a`
 
   :hover {
     background-color: transparent;
-    border: 1px solid #a2c0be;
     color: #a2c0be;
   }
 `
