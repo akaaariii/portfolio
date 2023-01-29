@@ -1,6 +1,13 @@
 import React from 'react'
 import { BgSecondary, Wrapper } from '../../globalStyles'
-import { SkillsContainer, SkillGroup, SkillGroupTitle, SkillGroupLists, SkillIconContainer, SkillIcon } from './styles'
+import {
+  SkillsContainer,
+  SkillGroup,
+  SkillGroupTitle,
+  SkillGroupLists,
+  SkillIconContainer,
+  SkillIcon,
+} from './styles'
 import { data } from './skillData'
 
 const Skills = () => {
@@ -16,7 +23,7 @@ const Skills = () => {
                 <li>HTML,</li>
                 <li>CSS,</li>
                 <li>JavaScript,</li>
-                <li>TypeScript,</li>
+                <li>TypeScript</li>
               </SkillGroupLists>
             </SkillGroup>
             <SkillGroup>
@@ -36,20 +43,18 @@ const Skills = () => {
             <SkillGroup>
               <SkillGroupTitle>Others</SkillGroupTitle>
               <SkillGroupLists>
-                <li>MongoDB,</li>
                 <li>MySQL,</li>
                 <li>Firebase,</li>
+                <li>Google Cloud Platform,</li>
+                <li>MongoDB,</li>
                 <li>Git,</li>
-                <li>Slack,</li>
-                <li>Heroku,</li>
-                <li>Vercel,</li>
                 <li>Figma,</li>
                 <li>XD,</li>
                 <li>Responsive Design</li>
               </SkillGroupLists>
             </SkillGroup>
           </section>
-          
+
           <SkillIconContainer>
             {data.map((item, index) => (
               <SkillIcon key={index} icon={item}>
@@ -58,7 +63,6 @@ const Skills = () => {
             ))}
           </SkillIconContainer>
         </SkillsContainer>
-
       </Wrapper>
     </BgSecondary>
   )
